@@ -1,0 +1,91 @@
+/* untuk tablet */
+@media all and (max-width: 1145px) {
+    /* footer*/
+    footer {
+        padding-bottom: 50px;
+        text-align: center;
+      }
+
+      .footer-logo{
+          float: none;
+      }
+    .dts{
+          float: none;
+          padding-top: 40px;
+          text-align: center;
+      }
+    .sponsor{
+        padding-left: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .kominfo img{
+          float:left;
+          width:30%;
+          display: inline-block;
+          padding-right:10px ;
+      }
+      .dts_logo img{
+        float:left;
+        width:28%;
+        display: inline-block;
+        padding-left: 30px ;
+    }
+      .progate img{
+        float:none;
+        width:30%;
+        display: inline-block;
+        padding-top: 40px;
+        padding-left: 20px ;
+        
+      }
+      /* end footer */
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+ /* footer*/
+ footer {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .footer-logo{
+      float: none;
+  }
+  .footer-logo p{
+      font-size: 12px;
+  }
+.dts{
+      float: none;
+      padding-top: 20px;
+      text-align: center;
+      font-size: 12px;
+  }
+  .sponsor{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.kominfo img{
+      float:none;
+      width:70%;
+      display: block;
+      margin-left: 15px;
+  }
+  .dts_logo img{
+    float:none;
+    width:68%;
+    display: block;
+    margin-left: 15px; 
+}
+  .progate img{
+    float:none;
+    width:70%;
+    display: block;
+    padding-top: 30px;
+    margin-left: 15px;
+  }
+  /* end footer */
+
+
+}

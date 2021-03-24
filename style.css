@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 /* CSS untuk Navbar */
 
@@ -19,7 +24,71 @@
 
 
 /* CSS Untuk footer */
+footer h1 {
+    color: #b3aeb5;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  footer {
+    padding-top: 20px;
+    padding-bottom: 130px;
+    background-color: rgb(41, 41, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+  }
+  footer p{
+      padding-top: 5px;
+      color:white;
 
+  }
+  .footer-logo{
+      float: left;
+      padding-top: 10px;
+  }
+  .footer-logo a{
+      text-decoration: none;
+      color: orange;
+      font-weight: bold;
+      display: inline-block;
+  }
+  .dts p{
+    padding-top: 5px;
+    color:white;
+  }
+  .dts a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    display: inline-block;
+  }
+  .dts{
+      float: right;
+      padding-top: 10px;
+      text-align: right;
+  }
 
+  .kominfo img{
+      float: left;
+      width:13%;
+      padding-left: 30px;
+      padding-top: 20px;
+      display: block;
+  }
+  .dts_logo img{
+    float: left;
+    width:13%;
+    padding-left: 30px;
+    padding-top: 20px;
+    display: block;
+}
+  .progate img{
+    float: left;
+    width:13%;
+    padding-left: 30px;
+    padding-top: 30px;
+    display: block;
+  }
 
 /* Footer end */
