@@ -10,7 +10,56 @@
 }
 
 /* CSS untuk Navbar */
-
+header{
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  font-family:Helvetica;
+  transition: all 0.5s;
+  background-color: rgba(30,20,30, 0.9);
+  color: white;
+  z-index: 16;
+}
+.logo{
+  float: left;
+}
+.logo-pendekar{
+  height: 65px;
+  float: left;
+  background-color: white;
+  margin-right: 15px;
+  transition: all 0.5s;
+}
+.logo h1{
+  line-height: 65px;
+  float: left;
+  font-size: 18px;
+  text-align: center;
+}
+.logo span{
+  color: #24a576;
+}
+.logo-pendekar:hover{
+background-color:unset;
+}
+.menu{
+  float: right;
+}
+.menu li{
+  float: left;
+  padding: 0 15px;
+  line-height: 65px;
+}
+.menu li:hover{
+  line-height: 60px;
+  background-color: white;
+  color:  #1e1e1e;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+main{
+  height: 1000px;
+}
 
 
 /* Navbar end */
