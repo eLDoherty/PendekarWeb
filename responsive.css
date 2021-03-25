@@ -9,32 +9,32 @@
       .footer-logo{
           float: none;
       }
-    .dts{
+    .footer_dts{
           float: none;
           padding-top: 40px;
           text-align: center;
       }
-    .sponsor{
+    .footer_sponsor{
         padding-left: 25px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .kominfo img{
+    .footer_kominfo img{
           float:left;
           width:30%;
-          display: inline-block;
+          display: block;
           padding-right:10px ;
       }
-      .dts_logo img{
+      .footer_dts_logo img{
         float:left;
         width:28%;
-        display: inline-block;
+        display: block;
         padding-left: 30px ;
     }
-      .progate img{
+      .footer_progate img{
         float:none;
         width:30%;
-        display: inline-block;
+        display: block;
         padding-top: 40px;
         padding-left: 20px ;
         
@@ -56,29 +56,29 @@
   .footer-logo p{
       font-size: 12px;
   }
-.dts{
+  .footer_dts{
       float: none;
       padding-top: 20px;
       text-align: center;
       font-size: 12px;
   }
-  .sponsor{
+  .footer_sponsor{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.kominfo img{
+  .footer_kominfo img{
       float:none;
       width:70%;
       display: block;
       margin-left: 15px;
   }
-  .dts_logo img{
+  .footer_dts_logo img{
     float:none;
     width:68%;
     display: block;
     margin-left: 15px; 
 }
-  .progate img{
+  .footer_progate img{
     float:none;
     width:70%;
     display: block;
