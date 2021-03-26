@@ -15,7 +15,74 @@
 
 /* Navbar end */
 
+/* CSS Profile Team */
+.profile-team {
+	margin: 1em 0;
+}
 
+.profile {
+	font-size: 3em;
+	height: 4em;
+	width: 64em;
+	padding: 1em;
+	display: table-cell;
+	vertical-align: middle;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.profile i {
+	font-size: 3em;
+}
+
+.bg-banner {
+  color: #fff;
+  background: -webkit-linear-gradient(-70deg, #1E1E1E 40%, rgba(0, 0, 0, 0) 40%), url('banner-laptopp.jpg');
+  background: -o-linear-gradient(-70deg, #1E1E1E 40%, rgba(0, 0, 0, 0) 40%), url('banner-laptopp.jpg');
+  background: -moz-linear-gradient(-70deg, #1E1E1E 40%, rgba(0, 0, 0, 0) 6400%), url('banner-laptopp.jpg');
+  background: linear-gradient(-70deg, #1E1E1E 40%, rgba(0, 0, 0, 0) 40%), url('banner-laptopp.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+
+.title {
+  background: rgba(255,255,255,0.4);
+  float: left;
+  color: #1E1E1E;
+  padding: 20px;
+  margin-top: 130px;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.title span {
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  font-weight: bold;
+}
+
+.bg-banner img {
+  transition: transform .5s ease;
+  width: 300px;
+  float: right;
+	margin-right: 100px;
+}
+
+.bg-banner img:hover {
+  -ms-transform: scale(1); 
+  -webkit-transform: scale(1); 
+  transform: scale(0.9); 
+}
+
+
+/* Profile End */
 
 /* CSS untuk Name Card */
 
