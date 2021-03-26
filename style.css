@@ -29,7 +29,7 @@ header{
 .logo-pendekar{
   height: 65px;
   float: left;
-  background-color: white;
+  background-color: #1E1e1e;
   margin-right: 15px;
   transition: all 0.5s;
 }
