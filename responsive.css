@@ -107,5 +107,21 @@
   .hero { width: 980px; }    
 }
 @media screen and (max-width: 640px){
-  .hero h1 { font-size: 4em; }    
+  .hero h1 { font-size: 40px; }    
+}
+
+@media all and (max-width: 1030px) and (min-width: 760px) {
+   .hero {
+     top:300px;
+   }
+}
+@media all and (max-width: 379px) and (min-width: 370px) {
+  .hero {
+    top:30%;
+  }
+}
+@media all and (max-width: 414px) and (min-width: 410px) {
+  .hero {
+    top:35%;
+  }
 }
