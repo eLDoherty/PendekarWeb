@@ -27,7 +27,8 @@ header{
   float: left;
 }
 .logo-pendekar{
-  height: 65px;
+  padding-top: 10px;
+  height: 50px;
   float: left;
   background-color: #1E1e1e;
   margin-right: 15px;
