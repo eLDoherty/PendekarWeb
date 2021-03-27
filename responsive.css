@@ -48,6 +48,10 @@
 
   /* Navbar */
 
+.logo-pendekar{
+    height: 50px;
+    padding-top: 15px;
+}
 .menu li {
   display:none;
 }
