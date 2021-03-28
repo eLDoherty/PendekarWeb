@@ -1,0 +1,78 @@
+/* untuk tablet */
+@media all and (max-width: 1000px) {
+    .menu-icon {
+        display:  block;
+    }
+    .menu{
+        display:none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .right{
+        padding-top: 100px;
+    }
+    .gird{
+        flex-wrap: wrap;
+    }
+    .content{
+        width: 50%;
+    }
+
+}
+/* untuk tablet */
+@media all and (max-width: 670px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .homes h1{
+        font-size: 20px;
+    }
+    .about{
+        flex-direction:column;
+    }
+    .left{
+        height: 250px;
+        width: 100%;
+        padding: 100px 0 20px
+      }
+    .right{
+        text-align: center;
+        height: 250px;
+        width: 100%;
+        padding: 40px;
+      }
+    .right p{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+     
+    .gird{
+        flex-direction:column;
+    }
+    .content{
+        margin: 0 auto;
+    }
+    .galery{
+        flex-direction:column;
+    }
+    .galery li{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .contact-list{
+        flex-direction:column;
+    }
+    .contact-list li{
+        margin: 10px;
+        width: 100%;
+    }
+}
