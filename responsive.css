@@ -102,8 +102,17 @@
     margin-left: 15px;
   }
   /* end footer */
-
-
+  /* card column */
+  .card-wrapper {
+    flex-direction: column;
+  }
+  .card {
+    width:  300px;
+    margin-bottom: 40px;
+  }
+  main {
+    height:fit-content;
+  }
 }
 
 /* Media query hero banner */
@@ -127,5 +136,18 @@
 @media all and (max-width: 414px) and (min-width: 410px) {
   .hero {
     top:35%;
+  }
+}
+
+@media all and (min-width: 550px) and (max-width: 1100px) {
+
+  .card-wrapper {
+    flex-direction: column;
+  }
+  .card {
+    width : 500px
+  }
+  .fade-carousel {
+    height : 700px;
   }
 }

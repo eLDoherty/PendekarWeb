@@ -61,9 +61,6 @@ background-color:unset;
   font-weight: bold;
   transition: all 0.5s;
 }
-main{
-  height: 1000px;
-}
 .menu-icon {
   color: white;
   float: right;
@@ -165,8 +162,8 @@ background-image: url(bgbanner.jpg);
 main {
   /* font-size: 10px; */
   font-family: Helvetica, Arial, sans-serif;
-  padding-top: 1.8rem;
   background-color: #fff;
+  margin-top: -100px;
 }
 a {
   text-decoration: none;
