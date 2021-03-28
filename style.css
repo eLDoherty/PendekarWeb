@@ -242,6 +242,7 @@ a {
   font-style: italic;
   text-align:center;
   color: #333;
+  height: 100px;
 }
 .card .card-btn {
   padding: 0.5rem 1.5rem;
