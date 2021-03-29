@@ -50,11 +50,15 @@ background-color:unset;
   float: right;
 }
 .menu li{
+float: left;
+}
+.menu a{
+  text-decoration: none;
   float: left;
-  padding: 0 15px;
+  padding: 0 10px;
   line-height: 65px;
 }
-.menu li:hover{
+.menu a:hover{
   line-height: 60px;
   background-color: white;
   color:  #1e1e1e;
