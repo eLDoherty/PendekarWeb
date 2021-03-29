@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+li{
+  list-style: none;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 18px;
+}
+
+header{
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  transition: all 0.5s;
+  background-color:rgba(45, 47, 46, 0.77);
+  color: white;
+  z-index: 16;
+}
+.logo{
+  float: left;
+}
+.logo-pendekar{
+  height: 65px;
+  float: left;
+  margin-right: 15px;
+  transition: all 0.7s;
+  background-color: #7f7f7f;
+  filter: grayscale();
+}
+.logo a{
+  color: white;
+  text-decoration: none;
+  line-height: 65px;
+  float: left;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: inherit;
+}
+.logo span{
+  color: #808080;
+}
+.logo-pendekar:hover{
+background-color:white;
+filter: none;
+}
+.menu-icon {
+  display:  none;
+  color: white;
+  float: right;
+  padding: 0 15px;
+  line-height: 65px;
+}
+.menu{
+  float: right;
+}
+.menu a{
+  text-decoration: none;
+  color: #808080;
+  font-size: 13px;
+  float: left;
+  padding: 0 15px;
+  line-height: 65px;
+}
+.menu li{
+  float: left;
+}
+.menu a:hover, .menu-icon:hover{
+  line-height: 60px;
+  background-color: #808080;
+  color:  white;
+  font-weight: bold;
+  transition: all 0.5s;
+  border-bottom: 5px solid #800000;
+}
+.homes{
+  padding: 300px 0 50px 0;
+  background-image: url(Ghiyat_Background.jpeg);
+  background-size: cover;
+  background-position: center center ;  
+  transition:all 0.7s;
+  filter: grayscale();
+}
+.homes:hover {
+  filter: none;
+}
+.homes h1, .homes h2, .homes h3 {
+
+  width: 50%;
+  font-family: 'Open Sans', sans-serif;
+}
+.homes h1{
+  text-align: right;
+  letter-spacing: 5px;
+  color: #808080;
+  border-top: 2px solid maroon;
+}
+.homes h2{
+  text-align: right;
+  letter-spacing: 5px;
+  color: #808080;
+  font-weight: normal;
+}
+.homes h3{
+  text-align: right;
+  letter-spacing: 5px;
+  color: white;
+  font-weight: normal;
+}
+
+.about {
+  display: flex;
+  height: fit-content;
+  filter: grayscale();
+  transition:all 0.7s;
+  flex-wrap: wrap;
+}
+.about:hover{
+  filter: none;
+}
+.left{
+  background-image: url(about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center ;
+  height:500px ;
+  text-align: right;
+  width: 50%;
+  padding: 150px 0 50px
+}
+.right{
+  text-align: left;
+  width: 50%;
+  padding: 150px 0 50px
+}
+.about p{
+  width: 70%;
+  margin: 30px 10px 10px;
+}
+.about h2{
+  color: white;
+  float: right;
+  width: 50%;
+  letter-spacing: 5px;
+  margin: 30px 10px 10px;
+  border-bottom: 2px solid maroon;
+}
+.about h3{  
+  float: right;
+  width: 50%; 
+  color: maroon;
+  font-size: 18;
+  margin-right: 10px;
+}
+.clear{
+  clear:left;
+}
+
+.resume{
+  padding: 50px;
+  background-color:#1E1e1e;
+  text-align: center;
+}
+.resume h2{
+  float: initial;
+  border-bottom: 2px solid maroon;
+  color:white;
+  margin:30px;
+  letter-spacing: 5px;
+}
+.gird{
+  display:flex;
+  list-style-type:none;
+  margin:0;padding:0;
+  height: fit-content;
+}
+.content{
+  flex: auto;
+  transition:all 0.5s;
+  text-align: center;
+  padding: 0 5px;
+  font-size: 13px;
+}
+.content h3{
+ color: #808080;
+ border-bottom: 1px solid white;
+ letter-spacing: 1px;
+ margin: 18px 5px ;
+}
+.content img{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  margin:5px;
+  filter: grayscale();
+}
+.content a{
+  text-decoration: none;
+  font-weight: lighter;
+  width: 80%;
+  display: inline-block;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+.list{
+  margin-bottom: 17px;
+}
+.list:hover a{
+  transition:all 0.5s;
+  font-size: 15px;
+  font-weight: normal;
+}
+.list:hover img{
+  transition:all 0.5s;
+  filter: none;
+  border-bottom: 3px solid maroon;
+}
+.content p{
+  color: white;
+  font-size: 10px;
+  font-weight: lighter;
+  display: inline-block 
+}
+.bar span{
+  color:white;
+}
+.bar:hover{
+  color:maroon;
+}
+
+.galery{
+  display: flex;
+  padding: 50px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.galery h2{
+  border-bottom: 2px solid maroon;
+  color: rgb(26, 26, 26);
+  margin:30px;
+  letter-spacing: 5px;
+}
+.galery img{
+  width: 100%;
+  margin: auto;
+}
+.galery li{
+  width: 30%;
+  flex: auto;
+}
+
+.collaborate{
+  padding: 50px;
+  text-align: center;
+}
+.collaborate h2{
+  border-bottom: 2px solid maroon;
+  color: rgb(26, 26, 26);
+  margin:30px;
+  letter-spacing: 5px;
+}
+.contact-list {
+  display: flex;
+}
+.contact-list li{
+  flex: auto;
+  text-align: center;
+}
+.contact a{
+  text-decoration: none;
+  color: #808080;
+  font-size: 40px;
+}
+.contact a:hover {
+  color: maroon;
+}
+
+/* CSS Untuk footer */
+  
+footer{
+  font-family: sans-serif;
+  background-color: rgb(26, 26, 26);
+  text-align: center;
+  color: #808080;
+  padding: 25px;
+}
+.footer p{
+  margin-bottom: 0;
+  margin: 0 0 10px;
+}
+footer p a{
+  text-decoration: none;
+  color: white;
+}
+
+footer p a:hover {
+  color: maroon;
+  text-decoration: none;
+}
+
+/* Footer end */
