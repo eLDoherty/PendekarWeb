@@ -155,4 +155,7 @@
     .fade-carousel {
         height: 700px;
     }
+    .hero {
+    top:40%;
+    }
 }
