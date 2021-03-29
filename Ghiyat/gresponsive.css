@@ -44,9 +44,9 @@
       }
     .right{
         text-align: center;
-        height: 250px;
         width: 100%;
-        padding: 40px;
+        padding: 30px;
+        clear: left;
       }
     .right p{
         text-align: center;
